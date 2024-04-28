@@ -2,7 +2,7 @@
   "name": "contact-app",
   "version": "1.0.0",
   "description": "Learning NodeJS RESTful API",
-  "main": "src/main.js",
+  "main": "nodemon src/main.js",
   "scripts": {
     "test": "jest -i"
   },
@@ -16,8 +16,10 @@
   "type": "module",
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "joi": "^17.9.2",
+    "nodemon": "^3.1.0",
     "uuid": "^9.0.0",
     "winston": "^3.9.0"
   },
